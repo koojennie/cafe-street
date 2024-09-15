@@ -19,3 +19,56 @@ header {
     text-decoration-color: #FF902B;
     font-weight: 300;
 }
+
+.now {
+    color: #E76F51;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+.btn-outline-warning {
+    color: #E76F51;
+    border-color: #E76F51;
+}
+
+.btn-outline-warning:hover {
+    background-color: #E76F51;
+    color: #fff;
+}
+
+.fa-star {
+    color: #FFD700;
+}
